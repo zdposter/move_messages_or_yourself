@@ -5,6 +5,9 @@
 
 browser.commands.onCommand.addListener((command) => {
 	//console.log( command);
+	if (command === "fldr-jump") {
+		browser.browserAction.setIcon({path: "icons/to_folder.svg"});
+	}
 	if (command === "move-msg") {
 		moveMessage = 0; // display chosen folder
 	} else {
