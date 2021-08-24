@@ -32,7 +32,8 @@
       "fldr-jump": {
          "suggested_key": {
             "default": "Ctrl+Shift+X",
-            "linux": "Ctrl+Shift+X"
+            "linux": "Ctrl+Shift+X",
+            "windows": "Ctrl+X"
          },
          "description": "display chosen folder"
       }
