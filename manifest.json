@@ -1,6 +1,6 @@
 {
    "manifest_version": 2,
-   "name": "Move messages and yourself1.7",
+   "name": "Move messages and yourself",
    "description": "Basic message move and folder display extension",
    "version": "1.7",
    "author": "agb",
