@@ -4,14 +4,15 @@
  */
 
 browser.commands.onCommand.addListener((command) => {
-    //console.log( command);
-    if (command === "move-msg") {
-        moveMessage = 0; // display chosen folder
-    } else {
-        moveMessage = 1; // move message(s) to folder
-    }
-    browser.browserAction.setTitle( { title: command} );
-    browser.browserAction.openPopup();
-});     
-
+	//console.log( command);
+	if (command === "move-msg") {
+		moveMessage = 0; // display chosen folder
+	} else {
+		moveMessage = 1; // move message(s) to folder
+	}
+	browser.browserAction.setTitle({
+		title: command
+	});
+	browser.browserAction.openPopup();
+});
 
